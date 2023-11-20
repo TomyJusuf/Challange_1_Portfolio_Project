@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.project_picture {
+  @apply flex gap-10 flex-wrap justify-center;
+}
+.image-card {
+  @apply w-[350px] h-52  bg-cover rounded-xl flex items-end text-white font-bold  pb-5 px-5 lg:w-72 md:w-52  sm:w-[450px] xs:h-56;
+}
+
+.image-1 {
+  @apply bg-[linear-gradient(to_bottom,rgba(250,250,230,0.2),rgba(0,10,10,0.5)),url('../assets/images/mountain_scss.png')];
+}
+.image-2 {
+  @apply bg-[linear-gradient(to_bottom,rgba(250,250,230,0.2),rgba(0,10,10,0.5)),url('../assets/images/periodic_table.png')];
+}
+.image-3 {
+  @apply bg-[linear-gradient(to_bottom,rgba(250,250,230,0.2),rgba(0,10,10,0.5)),url('../assets/images/pizza.png')];
+}
+.image-4 {
+  @apply bg-[linear-gradient(to_bottom,rgba(250,250,230,0.2),rgba(0,10,10,0.5)),url('../assets/images/nachbar_project.png')];
+}
+.image-5 {
+  @apply bg-[linear-gradient(to_bottom,rgba(250,250,230,0.2),rgba(0,10,10,0.5)),url('../assets/images/rent_car_design.png')];
+}
+.image-6 {
+  @apply bg-[linear-gradient(to_bottom,rgba(250,250,230,0.2),rgba(0,10,10,0.5)),url('../assets/images/friends_card.png')];
+}
+
+.image-7 {
+  @apply bg-[linear-gradient(to_bottom,rgba(250,250,230,0.2),rgba(0,10,10,0.5)),url('../assets/images/footer-layout-design.png')];
+}
+
+/* Track */
+::-webkit-scrollbar {
+  width: 12px; /* You can adjust the width */
+}
+
+/* Thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Set the color you want */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2980b9; /* Change color on hover */
+}
+
+/* Track (the area behind the thumb) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color */
+}
+
+/* Arrows (buttons for scrolling) */
+::-webkit-scrollbar-button {
+  background: #3498db; /* Set the color of the buttons */
+}
+
+/* Arrow on hover */
+::-webkit-scrollbar-button:hover {
+  background: #2980b9; /* Change color on hover */
+}
