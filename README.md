@@ -40,4 +40,3 @@ The server side is listening on port 3000.
 ### Step 3:
 
 Go to the folder named `(backendSide)` and find a file named `(index.html)`. Open it in your browser or with Live Server in your VSCode. It will display the messages that people have sent me from my portfolio. There are two buttons, one to show messages and one to delete messages.
-# Portfolio_Server_side

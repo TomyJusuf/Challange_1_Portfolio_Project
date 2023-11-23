@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head >
+  <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is portfolio of Tomas Matusek, Web developer"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -20,54 +24,55 @@
     <title>Document</title>
   </head>
   <body class="bg-slate-300 font-edu">
-    <div
+    <nav
+      aria-label="navigation"
       class="flex flex-wrap w-[55px] h-[100vh] justify-end fixed items-center text-slate-700 font-bold text-2xl ml-[96vw] md:pr-16 sm:pr-16 xs:z-10 sm:z-10 xs:pr-16"
     >
       <ul class="flex w-14 flex-col item-center text-start gap-5 container">
         <li
           class="w-8 h-8 rounded-full border-4 border-white bg-red-500 text-red-500 text-2xl flex justify-center items-center"
         >
-          <a href="#home">#</a>
+          <a href="#home" aria-label="link to Home section ">#</a>
         </li>
-
-        <a
-          href="#skill"
+        <li
           class="w-8 h-8 rounded-full border-4 border-white bg-slate-700 cursor-pointer text-center text-slate-700 text-2xl flex justify-center items-center"
-          >#</a
         >
-
-        <a
-          href="#projectSection"
+          <a href="#skill" aria-label="link to Skill section">#</a>
+        </li>
+        <li
           class="w-8 h-8 rounded-full border-4 border-white bg-cyan-700 cursor-pointer text-center text-cyan-700 text-2xl flex justify-center items-center"
-          >#</a
         >
-
-        <a
-          href="#personalCV"
+          <a href="#projectSection" aria-label="link to Project section">#</a>
+        </li>
+        <li
           class="w-8 h-8 rounded-full border-4 border-white bg-orange-300 cursor-pointer text-center text-orange-300 text-2xl flex justify-center items-center"
-          >#</a
         >
-        <a
-          href="#contactMe"
-          class="w-8 h-8 rounded-full border-4 border-white bg-purple-900 cursor-pointer text-center textd-purple-900 text-2xl flex justify-center items-center"
-          >#</a
-        ><a
-          href="#footer"
+          <a href="#personalCV" aria-label="link to Biography section ">#</a>
+        </li>
+        <li
+          class="w-8 h-8 rounded-full border-4 border-white bg-purple-900 cursor-pointer text-center text-purple-900 text-2xl flex justify-center items-center"
+        >
+          <a href="#contactMe" aria-label="link to Contact section ">#</a>
+        </li>
+        <li
           class="w-8 h-8 rounded-full border-4 border-slate-700 bg-yellow-400 cursor-pointer text-center text-yellow-400 text-2xl flex justify-center items-center"
-          >#</a
         >
+          <a href="#footer" aria-label="link to footer section">#</a>
+        </li>
       </ul>
-    </div>
+    </nav>
     <!-- HEADER -->
     <div
       id="home"
-      class="intro bg-yellow-300 w-full h-[100vh] bg-cover flex items-center justify-center sm:bg-red-600 sm:h-auto sm:mb-16 sm:w-[100vw] sm:flex sm:justify-center xs:w-[100vw] xs:m-0 xs:flex xs:flex-wrap xs:justify-center xs:px-5"
+      class="intro bg-yellow-300 w-full h-[100vh] bg-cover flex items-center justify-center sm:h-auto sm:mb-16 sm:w-[100vw] sm:flex sm:justify-center xs:w-[100vw] xs:m-0 xs:flex xs:flex-wrap xs:justify-center xs:px-5"
+      aria-label="Information about me"
     >
       <div
-        class="intro__card container text-slate-700 w-[60%] font-bold  lg:w-[80%] md:container sm:container sm:w-[90%] sm:h-full sm:mt-24 xs:bg-yellow-300 xs:w-[100vw] xs:mr-0"
+        class="intro__card container text-slate-700 w-[60%] font-bold lg:w-[80%] md:container sm:container sm:w-[90%] sm:h-full sm:mt-24 xs:w-[100vw] xs:mr-0"
+        tabindex="1"
       >
         <h1
-          class="text-5xl text-center px-10 mb-5 uppercase w-full sm:text-5xl sm:bg-yellow-300 sm:px-0 sm:py-0 sm:w-full xs:px-0 xs:text-7xl xs:text-center bg-red-500 py-5"
+          class="text-5xl text-center px-10 mb-5 uppercase w-full sm:text-5xl sm:px-0 sm:py-0 sm:w-full xs:px-0 xs:text-7xl xs:text-center bg-red-500 py-5 text-white"
         >
           Hallo.
         </h1>
@@ -77,18 +82,27 @@
           My name is Tom
         </h1>
         <h1
-          class="text-4xl px-11 uppercase w-full text-center sm:px-0 sm:py-0 sm:w-[100%] sm:text-3xl xs:text-2xl xs:px-0 xs:bg-red-300 sm:text-yellow-300"
+          class="text-4xl px-11 uppercase w-full text-center sm:px-0 sm:py-0 sm:w-[100%] sm:text-3xl xs:text-2xl xs:px-0"
         >
           I'm web developer
         </h1>
 
         <p
-          class="my-5 px-10 sm:container sm:py-0 sm:w-full  sm:px-5 text-slate-700 text-3xl font-thin xs:text-sm xs:px-2 sm:text-white sm:text-4xl  "
+          class="my-5 px-10 sm:container sm:py-0 sm:w-full sm:px-5 text-slate-700 text-3xl font-thin xs:text-sm xs:px-2 sm:text-4xl"
         >
-          As a young boy in a small town in the Czech Republic, IT technology has always been my interest. <br> Life circumstances didn't help me showcase my interest. However, recently, at the age of 34, I discovered my passion for programming. <br>
+          As a young boy in a small town in the Czech Republic, IT technology
+          has always been my interest. <br />
+          Life circumstances didn't help me showcase my interest. However,
+          recently, at the age of 34, I discovered my passion for programming.
+          <br />
 
-          I knew that English is the key to the future, so I taught myself the human language, and then I taught myself how to code. <br> Since then, programming has become my everyday routine, my biggest enjoyment is communicating with my computer. <br>The blackboard with colorful letters is my world. So, welcome to my world and enjoy browsing my small projects.
-       </p>
+          I knew that English is the key to the future, so I taught myself the
+          human language, and then I taught myself how to code. <br />
+          Since then, programming has become my everyday routine, my biggest
+          enjoyment is communicating with my computer. <br />The blackboard with
+          colorful letters is my world. So, welcome to my world and enjoy
+          browsing my small projects.
+        </p>
         <div
           class="btn-start w-60 bg-gradient-to-r mx-10 bg-slate-700 flex justify-center items-center py-2 text-2xl rounded-xl mt-3 border-2 border-white sm:w-40 origin-top-left xs:mx-10 xs:w-36 xs:h-10 xs:text-lg xs:text-yellow-300 mb-10 text-yellow-300"
         >
@@ -98,7 +112,7 @@
     </div>
 
     <i
-      class="fa-solid fa-arrow-down-long absolute text-6xl ml-[50%] top-[85vh] animate-bounce  sm:hidden"
+      class="fa-solid fa-arrow-down-long absolute text-6xl ml-[50%] top-[85vh] animate-bounce sm:hidden"
       style="color: #e6851d"
     ></i>
 
@@ -109,16 +123,19 @@
     <hr class="h-1 w-full bg-slate-700 mb-20" id="skill" />
     <h1
       class="container w-full h-24 bg-slate-700 text-yellow-300 mb-10 text text-5xl xs:text-3xl xs:w-[428px] flex justify-center items-center"
+      aria-label="Skill section"
     >
       Skill section !
     </h1>
 
     <div
       class="w-[1250px] container h-[82vh] flex flex-wrap justify-center items-center mb-16 bg-slate-700 rounded-2xl md:rounded-none xs:w-[400px] xs:rounded-none xs:"
+      aria-label="Skills"
     >
       <!-- writen page -->
       <div
         class="w-[98%] h-[80vh] bg-red-50 rounded-2xl flex flex-col justify-center items-center py-10 md:rounded-none md:w-full md:h-[75vh] sm:rounded-none sm:w-full sm:h-[73vh] xs:w-[428px] xs:rounded-none xs:h-auto xs:relative"
+        tabindex="2"
       >
         <h1
           class="w-full flex justify-center items-center mb-1 text-5xl h-16 sm:text-2xl xs:text-lg"
@@ -128,7 +145,7 @@
         <h1
           class="w-full flex justify-center items-center mb-1 text-5xl h-16 sm:text-2xl xs:text-lg"
         >
-          here is what I've learnt so far 
+          here is what I've learnt so far
         </h1>
         <h1
           class="w-full flex justify-center items-center mb-1 text-5xl h-16 sm:text-2xl xs:text-lg"
@@ -141,21 +158,21 @@
           class="w-[100%] h-full flex flex-wrap items-center gap-5 justify-center xs:w-full"
         >
           <div
-            class="card flex w-[80%] justify-evenly flex-wrap items-center h-72 md:w-full text-black sm:w-[90%]  xs:w-full"
+            class="card flex w-[80%] justify-evenly flex-wrap items-center h-72 md:w-full text-black sm:w-[90%] xs:w-full"
           >
             <div
-              class="card_logo flex w-full justify-evenly flex-wrap uppercase font-bold sm:font-thin md:text-base md:gap-4 md:w-full sm:grid sm:grid-cols-3 sm:grid-rows-3  sm:h-full gap-2"
+              class="card_logo flex w-full justify-evenly flex-wrap uppercase font-bold sm:font-thin md:text-base md:gap-4 md:w-full sm:grid sm:grid-cols-3 sm:grid-rows-3 sm:h-full gap-2"
             >
-              <div
-                class="logo flex flex-wrap justify-center w-16  sm:w-full"
-              >
+              <div class="logo flex flex-wrap justify-center w-16 sm:w-full">
                 <i
                   class="fa-solid fa-code text-7xl md:text-4xl sm:text-center sm:text-6xl sm:w-full xs:text-3xl text-orange-400"
                 ></i>
-                <h3 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">html</h3>
+                <h2 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">
+                  html
+                </h2>
               </div>
               <div
-                class="logo flex flex-wrap justify-center w-16 md:w-14 sm:w-full "
+                class="logo flex flex-wrap justify-center w-16 md:w-14 sm:w-full"
               >
                 <i
                   class="fa-brands fa-css3 text-7xl md:text-4xl sm:text-6xl sm:w-full sm:text-center xs:text-3xl text-blue-400"
@@ -166,44 +183,45 @@
                   CSS
                 </h3>
               </div>
-              <div
-                class="logo flex flex-wrap justify-center w-16 sm:w-full "
-              >
+              <div class="logo flex flex-wrap justify-center w-16 sm:w-full">
                 <i
                   class="fa-brands fa-sass text-7xl md:text-4xl sm:text-6xl sm:text-center sm:w-full xs:text-3xl text-pink-400"
                 ></i>
-                <h3 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">Sass</h3>
+                <h3 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">
+                  Sass
+                </h3>
               </div>
-              <div
-                class="logo flex flex-wrap justify-center w-16 sm:w-full "
-              >
+              <div class="logo flex flex-wrap justify-center w-16 sm:w-full">
                 <i
                   class="fa-brands fa-bootstrap text-7xl md:text-4xl sm:text-6xl sm:w-full sm:text-center xs:text-3xl text-violet-600"
                 ></i>
-                <h3 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">Bootstrab</h3>
+                <h3 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">
+                  Bootstrab
+                </h3>
               </div>
-              <div
-                class="logo flex flex-wrap justify-center w-16 sm:w-full "
-              >
+              <div class="logo flex flex-wrap justify-center w-16 sm:w-full">
                 <i
                   class="fa-brands fa-github text-7xl md:text-4xl sm:text-6xl sm:text-center sm:w-full xs:text-3xl"
                 ></i>
-                <h3 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">gitHub</h3>
+                <h3 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">
+                  gitHub
+                </h3>
               </div>
-              <div
-                class="logo flex flex-wrap justify-center w-16 sm:w-full "
-              >
+              <div class="logo flex flex-wrap justify-center w-16 sm:w-full">
                 <i
                   class="fa-brands fa-node-js text-7xl md:text-4xl sm:text-6xl sm:w-full sm:text-center xs:text-3xl text-lime-400"
                 ></i>
-                <h3 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">javascript</h3>
+                <h3 class="mt-3 md:mt-0 md:text-sm sm:text-xs font-sans">
+                  javascript
+                </h3>
               </div>
               <div
-                class="logo flex flex-wrap justify-center w-[4.5rem] items-center md:w-[36px] sm:w-full "
+                class="logo flex flex-wrap justify-center w-[4.5rem] items-center md:w-[36px] sm:w-full"
               >
                 <img
                   class="w-[72px] h-[72px] md:w-[36px] md:h-[35px] sm:w-[42px] sm:h-[42px] xs:w-[1.87rem] xs:h-[36px]"
                   src="../assets/images/tailwind.svg"
+                  alt="logo of tailwincss library"
                 />
                 <h3
                   class="mt-3 md:mt-1 sm:mt-2 sm:text-xs md:text-xs sm:w-full sm:text-center font-sans"
@@ -223,20 +241,24 @@
     <hr class="h-1 w-full bg-slate-700 mb-20" id="projectSection" />
     <h1
       class="container w-full h-24 flex justify-center items-center bg-cyan-700 mb-10 text-slate-750 text-5xl text-yellow-100"
+      aria-label="Project section"
     >
       Project section!
     </h1>
     <div
-      class="w-[1250px] container h-[82vh] flex flex-wrap justify-center items-center mb-16 rounded-2xl  md:rounded-none sm:h-full sm:bg-none sm:rounded-none xs:h-full"
+      class="w-[1250px] container h-[82vh] flex flex-wrap justify-center items-center mb-16 rounded-2xl md:rounded-none sm:h-full sm:bg-none sm:rounded-none xs:h-full"
     >
       <!-- writen page -->
       <div
         class="w-[98%] h-[80vh] bg-red-50 rounded-2xl flex flex-col justify-center items-center p-6 md:bg-cyan-700 md:rounded-none md:w-full sm:h-auto sm:p-5 sm:w-full sm:rounded-none xs:h-auto xs:py-5 xs:rounded-none xs:bg-slate-300"
+        tabindex="3"
       >
-        <div class="w-[100%] flex flex-wrap items-center gap-5 justify-center md:text-xs ">
+        <div
+          class="w-[100%] flex flex-wrap items-center gap-5 justify-center md:text-xs"
+        >
           <!-- box-one -->
           <div
-            class="image-1 image-card flex justify-between shadow-lg shadow-slate-700 md:fw "
+            class="image-1 image-card flex justify-between shadow-lg shadow-slate-700 md:fw"
           >
             <a
               href="https://mountain-scss.netlify.app/"
@@ -341,12 +363,12 @@
               Fetch Api Nachbarn</a
             >
             <span class="text-yellow-100">
-              <i class="fa-brands fa-github text-xl "></i>
+              <i class="fa-brands fa-github text-xl"></i>
               <a
                 href="https://github.com/TomyJusuf/Fetch-API_Nachbarn_anzeigen"
                 target="_blank"
                 rel="noopener noreferrer"
-                class=" font-serif"
+                class="font-serif"
                 >GitHub</a
               >
             </span>
@@ -370,7 +392,7 @@
               Rent Car</a
             >
             <span class="text-yellow-100">
-              <i class="fa-brands fa-github text-xl "></i>
+              <i class="fa-brands fa-github text-xl"></i>
               <a
                 href="https://github.com/TomyJusuf/Tailwind-Rent_A_Car_UI_Design"
                 target="_blank"
@@ -388,7 +410,7 @@
               href="https://uidesigndaily.com/posts/figma-groups-list-dark-theme-app-day-1466"
               target="_blank"
               class="flex justify-start items-center text-yellow-100"
-              ><span class="relative flex h-3 w-3 mr-2 ">
+              ><span class="relative flex h-3 w-3 mr-2">
                 <span
                   class="animate-ping absolute inline-flex h-full w-full rounded-full bg-lime-400 opacity-75"
                 ></span>
@@ -445,12 +467,13 @@
     <hr class="h-1 w-full bg-slate-700 mb-20" id="personalCV" />
     <!-- PERSON CV  -->
     <h1
-      class="container w-full h-24 flex justify-center items-center md:mb-5 bg-orange-300 mb-10 text text-5xl   md:w-full xs:mb-5"
+      class="container w-full h-24 flex justify-center items-center md:mb-5 bg-orange-300 mb-10 text text-5xl md:w-full xs:mb-5"
+      aria-label="Biology portfolio"
     >
       Personal CV !
     </h1>
     <div
-      class="w-[1250px] container h-[82vh] flex flex-wrap justify-center items-center mb-56 bg-slate-700 rounded-2xl  md:h-[90vh] md:rounded-none xs:rounded-none xs:h-auto xs:mb-0"
+      class="w-[1250px] container h-[82vh] flex flex-wrap justify-center items-center mb-56 bg-slate-700 rounded-2xl md:h-[90vh] md:rounded-none xs:rounded-none xs:h-auto xs:mb-0"
     >
       <!-- aside bar -->
       <div
@@ -496,15 +519,18 @@
           href="Lebenslauf.pdf"
           target="_blank"
           class="mt-40 md:mr-20 sm:relative sm:mt-[75px] xs:mt-10 animate-pulse"
-          ><i class="fa-regular fa-file-powerpoint text-7xl md:text-4xl text-red-900 "></i
+          aria-label="Read more about my biography"
+          ><i
+            class="fa-regular fa-file-powerpoint text-7xl md:text-4xl text-red-900"
+          ></i
         ></a>
-        <span class=" md:hidden sm:absolute sm:mt-26 ">PDF file ! </span>
+        <span class="md:hidden sm:absolute sm:mt-26">PDF file ! </span>
       </div>
       <!-- writen page -->
       <div
         class="w-[940px] h-[80vh] bg-red-50 p-6 rounded-tr-2xl rounded-br-2xl shadow-lg flex flex-wrap justify-start items-start lg:w-[690px] md:rounded-none sm:h-96 sm:rounded-none xs:flex xs:justify-center xs:rounded-none xs:items-start"
       >
-        <div class="layoutInsideCard w-full">
+        <div class="layoutInsideCard w-full" tabindex="4">
           <!-- <h1 class="font-edu">Name: <span>Tomas Matusek</span></h1>
           <h1 class="font-edu">City: <span>Villach</span></h1>
           <h1 class="font-edu">Living country: <span>Austria</span></h1>
@@ -517,8 +543,16 @@
         <div
           class="w-32 flex justify-between absolute left-2/3 mt-[600px] cursor-pointer sm:mt-80 xs:left-[155px] xs:absolute xs:mt-[510px] xs:w-[150px]"
         >
-          <i class="fa-solid fa-angles-left text-4xl xs:text-lg"></i>
-          <i class="fa-solid fa-angles-right text-4xl xs:text-lg"></i>
+          <button
+            type="button"
+            aria-label="Arrow button left"
+            class="fa-solid fa-angles-left text-4xl xs:text-lg"
+          ></button>
+          <button
+            type="button"
+            aria-label="Arrow button right"
+            class="fa-solid fa-angles-right text-4xl xs:text-lg"
+          ></button>
         </div>
       </div>
     </div>
@@ -528,11 +562,12 @@
     <hr class="h-1 w-full bg-slate-700 mb-20" id="contactMe" />
     <h1
       class="container w-full h-24 flex justify-center items-center bg-purple-900 text-yellow-300 mb-10 text text-5xl"
+      aria-label="Contact me"
     >
       Contact me !
     </h1>
     <div
-      class="w-[1250px] container h-[82vh] flex flex-wrap justify-center items-center mb-16 bg-slate-700 rounded-2xl md:rounded-none  xs:rounded-none xs:h-[100vh]"
+      class="w-[1250px] container h-[82vh] flex flex-wrap justify-center items-center mb-16 bg-slate-700 rounded-2xl md:rounded-none xs:rounded-none xs:h-[100vh]"
     >
       <!-- writen page -->
       <form
@@ -560,6 +595,7 @@
                 name="name"
                 required
                 class="w-[300px] ml-12 border-2 border-black xs:w-[250px]"
+                autocomplete="name"
               /><br /><br />
             </div>
             <div
@@ -574,6 +610,7 @@
                 name="email"
                 required
                 class="w-[300px] ml-12 border-2 border-black xs:w-[250px]"
+                autocomplete="email"
               /><br /><br />
             </div>
             <div class="messageShow flex flex-wrap justify-between m-0 w-full">
@@ -602,10 +639,12 @@
 
     <!-- TEST AREA -->
 
-    <footer id="footer"
+    <footer
+      id="footer"
       class="w-full bg-slate-700 h-16 text-white flex items-center justify-center text-2xl"
+      aria-label="footer"
     >
-      <h4 class=" text-yellow-300 font-sans">&#xa9 Created by Tomas Matusek</h4>
+      <h1 class="text-yellow-300 font-sans">&#xa9; Created by Tomas Matusek</h1>
     </footer>
 
     <script src="app.js" type="module"></script>

@@ -19,7 +19,7 @@ const {
 console.log(name);
 
 const personalData = `
-<h1 class="w-full text-center  text-5xl  ">Personal Data</h1>
+<h1 class="w-full text-center  text-5xl   tabindex="4"">Personal Data</h1>
 <div class="w-full h-2 text-center bg-orange-300 text-4xl font-bold mb-16"></div>
 <h1 class="font-edu text-2xl text-start">Name: <span>${name}</span></h1>
 <h1 class="font-edu text-2xl text-start">City: <span>${city}</span></h1>
@@ -31,14 +31,14 @@ const personalData = `
 `;
 
 const contactData = `
-<h1 class="w-full text-center text-4xl font-bold ">Contact</h1>
+<h1 class="w-full text-center text-4xl font-bold "  tabindex="6">Contact</h1>
 <div class="w-full h-2  bg-orange-300  mb-16"></div>
 <h1 class="font-edu text-2xl text-start">Phone: <span>${phone}</span></h1>
 <h1 class="font-edu text-2xl text-start">Email: <span>${email}</span></h1>
 `;
 
 const education = `
-<h1 class="w-full text-center text-4xl font-bold ">Education</h1>
+<h1 class="w-full text-center text-4xl font-bold "  tabindex="7">Education</h1>
 <div class="w-full h-2  bg-orange-300  mb-16"></div>
 <h1 class="font-edu text-2xl">Grundschule: <span>${grundSchule}</span></h1>
 <h1 class="font-edu text-2xl">Ausbildung: <span>${ausbildung}</span></h1>
@@ -46,7 +46,7 @@ const education = `
 `;
 
 const carrier = `
-<h1 class="w-full text-center  text-4xl font-bold ">Carrier</h1>
+<h1 class="w-full text-center  text-4xl font-bold "  tabindex="8">Carrier</h1>
 <div class="w-full h-2  bg-orange-300  mb-16"></div>
 <h1 class="font-edu text-xl">${experience[0]}</h1>
 <h1 class="font-edu text-xl">${experience[1]}</h1>
@@ -54,7 +54,7 @@ const carrier = `
 <h1 class="font-edu text-xl">${experience[3]}</h1>
 `;
 
-const languagesSkill = `<h1 class="w-full text-center  text-4xl font-bold ">Languages</h1>
+const languagesSkill = `<h1 class="w-full text-center  text-4xl font-bold "  tabindex="9">Languages</h1>
 <div class="w-full h-2  bg-orange-300  mb-16"></div>
 <h1 class="font-edu text-xl">${languages[0]}</h1>
 <h1 class="font-edu text-xl">${languages[1]}</h1>
