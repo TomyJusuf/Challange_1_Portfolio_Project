@@ -1,42 +1,58 @@
-## STEP ONE - INSTALL ALL NECESSARY THINGS FOR RUNNING THE PROJECT
+#### STEP ONE - INSTALL ALL NECESSARY TOOLS FOR RUNNING THE PROJECT
 
-### Step 1:
+<details>
+<summary>Click For Solution</summary>
 
-Open the terminal in VSCode.
+- Step 1:
 
-### Step 2:
+  Open the terminal in VSCode.
 
-In your terminal, type: `npm init -y` (NodeJS must be downloaded).
+- Step 2:
 
-### Step 3:
+  In your terminal, type: npm init -y (NodeJS must be installed).
 
-After installation (`package-lock.json` and `package.json`), type in the terminal: `npm install`. This will install the necessary packages for running the project correctly.
+- Step 3:
 
----
+  After installation (package-lock.json and package.json), type in the terminal: npm install. This will install the necessary packages for running the project correctly.
 
-## STEP TWO - THE PORTFOLIO IS DESIGNED USING THE TAILWINDCSS LIBRARY
+</details>
 
-### Step 1:
+#### STEP TWO - THE PORTFOLIO IS DESIGNED USING THE TAILWINDCSS LIBRARY
 
-In the terminal, type:
-npm run start
+<details>
+<summary>Click For Solution</summary>
 
-### Step 2:
+- Step 1:
 
-Open foulder `src` and there `index.html` (Portfolio project)
+  In the terminal, type:
 
-## STEP THREE
+**sh:**
 
-### Step 1:
+    npm run start
 
-The server side is listening on port 3000.
+- Step 2:
 
-- In the terminal, type: `npm run server` or `node server.js`
+  Open the folder src and then index.html (Portfolio project).
 
-### Step 2:
+</details>
 
-- Open a new browser tab and type: http://localhost:3000/message. It will show you a JSON string file containing data from my portfolio. If you want to send me some messages, you can do so here.
+#### STEP THREE
 
-### Step 3:
+<details>
+<summary>Click For Solution</summary>
 
-Go to the folder named `(backendSide)` and find a file named `(index.html)`. Open it in your browser or with Live Server in your VSCode. It will display the messages that people have sent me from my portfolio. There are two buttons, one to show messages and one to delete messages.
+- Step 1:
+
+  The server side is listening on port 3000.
+
+In the terminal, type: npm run server or node server.js.
+
+- Step 2:
+
+  Open a new browser tab and type: http://localhost:3000/message. It will show you a JSON string containing data from my portfolio. If you want to send me some messages, you can do so here.
+
+- Step 3:
+
+  Go to the folder named backendSide and find a file named index.html. Open it in your browser or with Live Server in your VSCode. It will display the messages that people have sent me from my portfolio. There are two buttons, one to show messages and one to delete messages.
+
+</details>
