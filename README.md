@@ -1,3 +1,6 @@
+First project that I should create for coding academy school. It called Challange 1.
+
+
 #### STEP ONE - INSTALL ALL NECESSARY TOOLS FOR RUNNING THE PROJECT
 
 <details>
